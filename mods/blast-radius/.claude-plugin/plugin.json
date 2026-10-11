@@ -1,0 +1,1 @@
+{ "name": "blast-radius", "version": "0.1.0", "description": "Holds risky Bash commands (rm -r, force push, reset --hard, clean, find -delete, drop/truncate), shows what they would affect, and waits for Proceed or Cancel.", "types": "./types/index.d.ts" }

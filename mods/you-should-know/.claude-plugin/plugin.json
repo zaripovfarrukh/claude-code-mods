@@ -1,0 +1,1 @@
+{ "name": "you-should-know", "version": "0.1.0", "description": "A second agent on the side reads what Claude just did and flags anything you might miss, as a note above the prompt. Toggle with /should-know.", "types": "./types/index.d.ts" }

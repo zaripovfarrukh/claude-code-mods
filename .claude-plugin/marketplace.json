@@ -1,0 +1,48 @@
+{
+  "name": "claude-code-mods",
+  "owner": {
+    "name": "Farrukh Zaripov"
+  },
+  "plugins": [
+    {
+      "name": "blast-radius",
+      "source": "./mods/blast-radius",
+      "description": "Holds risky Bash commands (rm -r, force push, reset --hard, clean, find -delete, drop/truncate), shows what they would affect, and waits for Proceed or Cancel."
+    },
+    {
+      "name": "cache-tax",
+      "source": "./mods/cache-tax",
+      "description": "Holds a prompt once when the prompt cache has gone cold and shows the estimated re-write cost; /keepwarm pings the cache."
+    },
+    {
+      "name": "filetree",
+      "source": "./mods/filetree",
+      "description": "Project file tree in a pane: files Claude reads or edits shimmer, committed ones turn green, uncommitted changes are marked. Toggle with /filetree."
+    },
+    {
+      "name": "reflect",
+      "source": "./mods/reflect",
+      "description": "Turns your corrections into saved rules: spots a stated preference in your prompt and offers to save it to CLAUDE.md from a band above the prompt."
+    },
+    {
+      "name": "replay-theater",
+      "source": "./mods/replay-theater",
+      "description": "/replay steps through every file edit Claude made in the last turn, one colored diff at a time."
+    },
+    {
+      "name": "savvy-progress",
+      "source": "./mods/savvy-progress",
+      "description": "Live panel and progress band for subagents: model, context fill, tokens, estimated cost and time. Toggle with /agents-info."
+    },
+    {
+      "name": "skins",
+      "source": "./mods/skins",
+      "description": "Switch colour skins live with /skin <name>: tool rows with icon, name, argument summary and duration, edits as diff cards, a styled spinner."
+    },
+    {
+      "name": "you-should-know",
+      "source": "./mods/you-should-know",
+      "description": "A second agent on the side reads what Claude just did and flags anything you might miss, as a note above the prompt. Toggle with /should-know."
+    }
+  ]
+}

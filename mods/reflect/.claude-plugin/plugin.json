@@ -1,0 +1,1 @@
+{ "name": "reflect", "version": "0.1.0", "description": "Turns your corrections into saved rules: spots a stated preference in your prompt and offers to save it to CLAUDE.md from a band above the prompt.", "types": "./types/index.d.ts" }

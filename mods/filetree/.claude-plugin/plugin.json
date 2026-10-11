@@ -1,0 +1,1 @@
+{ "name": "filetree", "version": "0.1.0", "description": "Project file tree in a pane: files Claude reads or edits shimmer, committed ones turn green, uncommitted changes are marked. Toggle with /filetree.", "types": "./types/index.d.ts" }

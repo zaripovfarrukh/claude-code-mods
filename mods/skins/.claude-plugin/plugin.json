@@ -1,0 +1,1 @@
+{ "name": "skins", "version": "0.1.0", "description": "Switch colour skins live with /skin <name>: tool rows with icon, name, argument summary and duration, edits as diff cards, a styled spinner.", "types": "./types/index.d.ts" }

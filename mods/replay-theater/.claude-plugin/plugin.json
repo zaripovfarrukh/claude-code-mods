@@ -1,0 +1,1 @@
+{ "name": "replay-theater", "version": "0.1.0", "description": "/replay steps through every file edit Claude made in the last turn, one colored diff at a time.", "types": "./types/index.d.ts" }

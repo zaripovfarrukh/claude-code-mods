@@ -1,0 +1,1 @@
+{ "name": "savvy-progress", "version": "0.1.0", "description": "Live panel and progress band for subagents: model, context fill, tokens, estimated cost and time. Toggle with /agents-info.", "types": "./types/index.d.ts" }
