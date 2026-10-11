@@ -1,0 +1,20 @@
+{
+  "name": "handoff",
+  "version": "0.1.0",
+  "description": "Hands a long session over to a fresh one before context runs out: watches the context fill, offers to write HANDOFF.md from the session's own transcript, and loads it into the next session.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "firstThresholdPercent": {
+      "type": "number",
+      "title": "First warning at (% of context)",
+      "description": "The context fill at which the handoff band first appears.",
+      "default": 70
+    },
+    "secondThresholdPercent": {
+      "type": "number",
+      "title": "Second warning at (% of context)",
+      "description": "The context fill at which the handoff band appears again, more urgently.",
+      "default": 80
+    }
+  }
+}

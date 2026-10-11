@@ -25,6 +25,7 @@ the names below.
 | `blast-radius` | automatic | Holds risky shell commands (`rm -rf`, force push, `reset --hard`) and lists what they would affect before you decide. |
 | `reflect` | automatic | Spots your corrections and offers to save them as rules in CLAUDE.md. |
 | `replay-theater` | `/replay` | Steps through every file edit of the last turn, one diff at a time. |
+| `handoff` | `/handoff` | Hands a long session over to a fresh one at 70% and 80% context: writes a branch-scoped note under `.claude/handoffs/`, which the next session loads by itself. |
 | `skins` | `/skin <name>` | Restyles tool rows and diff cards in seven themes. |
 
 ## What each one costs or touches
@@ -32,6 +33,7 @@ the names below.
 - `you-should-know` and `reflect` make an extra model call per turn or per prompt.
 - `cache-tax`'s `/keepwarm` pings the API on a timer while Claude Code is open.
 - `reflect` writes to `./CLAUDE.md` or `~/.claude/CLAUDE.md`, but only when you press a button.
+- `handoff` makes one summarizing call over your whole transcript when you press the button, and writes `.claude/handoffs/<branch>.md` into the repo — committed, so it reaches teammates; the summary is of your session, so keep sensitive detail out of it.
 - `blast-radius` and `filetree` run shell commands (`find`, `du`, `git status`) to measure and to read state.
 - `filetree` shows your real folder and file names; `reflect` shows your prompt text.
 - All cost figures are estimates from token counts and a built-in price table, not a bill.

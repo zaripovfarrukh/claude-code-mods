@@ -20,6 +20,11 @@
       "description": "Project file tree in a pane: files Claude reads or edits shimmer, committed ones turn green, uncommitted changes are marked. Toggle with /filetree."
     },
     {
+      "name": "handoff",
+      "source": "./mods/handoff",
+      "description": "Hands a long session over to a fresh one before context runs out: watches the context fill, offers to write HANDOFF.md from the session's own transcript, and loads it into the next session."
+    },
+    {
       "name": "reflect",
       "source": "./mods/reflect",
       "description": "Turns your corrections into saved rules: spots a stated preference in your prompt and offers to save it to CLAUDE.md from a band above the prompt."
