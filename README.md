@@ -43,3 +43,22 @@ permissions on.
 
 These were built from screenshots in one session and are validated and unit-tested,
 but most have not been exercised live. Treat them as working drafts.
+
+## Credit
+
+These were rebuilt from screenshots in a guide to existing Claude Code mods. They
+are independent implementations written against the plugin API, not forks, and they
+reproduce ideas that are not mine:
+
+- **Blast Radius** and **Replay Theater** are Anthropic's own sample mods.
+- **Savvy Progress**, **Cache Tax**, **Filetree**, **Reflect**, **Claude Skins** and
+  **You Should Know** are the work of their respective authors. Reflect's original
+  repo has over 1,700 stars; Claude Skins ships as `skins@hellosverre-mods`.
+
+If you are one of those authors and want a link added, a name corrected, or a mod
+taken down, open an issue and I will do it. Prefer the originals where they exist —
+they are tested in the wild and these are not.
+
+**Terminal Browser** from that guide is deliberately absent: it needs a
+kitty-graphics terminal and a local server, which a hooks plugin cannot provide.
+Use the original.
