@@ -10,7 +10,7 @@ the desktop app too.
 ## Install
 
 ```
-/plugin install <mod> --marketplace <owner>/claude-code-mods
+/plugin install <mod> --marketplace zaripovfarrukh/claude-code-mods
 ```
 
 Answer `y` to add the marketplace, then choose a scope. Replace `<mod>` with one of
