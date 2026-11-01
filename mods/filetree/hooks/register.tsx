@@ -224,6 +224,7 @@ export const register: Register = on => {
           const label = `${'  '.repeat(r.depth)}${icon}${r.name}${marker}`
           return (
             <Button
+              key={r.rel}
               plain
               onPress={() => (isDir ? toggle($, r.rel) : select($, r.rel))}
             >
